@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Docs", ".Docs", "{E9F60B01-477E-4B0D-BE76-939E8F8BD8C4}"
+	ProjectSection(SolutionItems) = preProject
+		BackLog.txt = BackLog.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E2C3F13A-5E0F-4717-A33C-8CA63D1169FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8FB3153D-012D-443E-96CE-BFF19C23B4B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Axis.Lyra.Core", "Axis.Lyra.Core\Axis.Lyra.Core.csproj", "{1CB64015-A4EA-4D78-9DAF-C79868943D77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Axis.Lyra.Core.Tests", "Axis.Lyra.Tests\Axis.Lyra.Core.Tests.csproj", "{CAE174AB-C257-4A72-ABE3-2977C7A9D348}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Axis.Lyra.Redis", "Axis.Lyra.Redis\Axis.Lyra.Redis.csproj", "{7DA4614B-1F56-4763-8402-9D61485B243C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Axis.Lyra.Redis.Tests", "Axis.Lyra.Redis.Tests\Axis.Lyra.Redis.Tests.csproj", "{6F60658B-8C6B-4811-8AF6-281E356D0CA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Axis.Lyra.WeakMemCache", "Axis.Lyra.WeakMemCache\Axis.Lyra.WeakMemCache.csproj", "{7F19E063-7911-4675-A2A6-F263F6179E6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Axis.Lyra.WeakMemCache.Tests", "Axis.Lyra.WeakMemCache.Tests\Axis.Lyra.WeakMemCache.Tests.csproj", "{6951FB9C-24A3-4C96-A544-6263381FCA61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CB64015-A4EA-4D78-9DAF-C79868943D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB64015-A4EA-4D78-9DAF-C79868943D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB64015-A4EA-4D78-9DAF-C79868943D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB64015-A4EA-4D78-9DAF-C79868943D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAE174AB-C257-4A72-ABE3-2977C7A9D348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAE174AB-C257-4A72-ABE3-2977C7A9D348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAE174AB-C257-4A72-ABE3-2977C7A9D348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE174AB-C257-4A72-ABE3-2977C7A9D348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DA4614B-1F56-4763-8402-9D61485B243C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA4614B-1F56-4763-8402-9D61485B243C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA4614B-1F56-4763-8402-9D61485B243C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA4614B-1F56-4763-8402-9D61485B243C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F60658B-8C6B-4811-8AF6-281E356D0CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F60658B-8C6B-4811-8AF6-281E356D0CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F60658B-8C6B-4811-8AF6-281E356D0CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F60658B-8C6B-4811-8AF6-281E356D0CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F19E063-7911-4675-A2A6-F263F6179E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F19E063-7911-4675-A2A6-F263F6179E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F19E063-7911-4675-A2A6-F263F6179E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F19E063-7911-4675-A2A6-F263F6179E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6951FB9C-24A3-4C96-A544-6263381FCA61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6951FB9C-24A3-4C96-A544-6263381FCA61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6951FB9C-24A3-4C96-A544-6263381FCA61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6951FB9C-24A3-4C96-A544-6263381FCA61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1CB64015-A4EA-4D78-9DAF-C79868943D77} = {E2C3F13A-5E0F-4717-A33C-8CA63D1169FB}
+		{CAE174AB-C257-4A72-ABE3-2977C7A9D348} = {8FB3153D-012D-443E-96CE-BFF19C23B4B1}
+		{7DA4614B-1F56-4763-8402-9D61485B243C} = {E2C3F13A-5E0F-4717-A33C-8CA63D1169FB}
+		{6F60658B-8C6B-4811-8AF6-281E356D0CA0} = {8FB3153D-012D-443E-96CE-BFF19C23B4B1}
+		{7F19E063-7911-4675-A2A6-F263F6179E6B} = {E2C3F13A-5E0F-4717-A33C-8CA63D1169FB}
+		{6951FB9C-24A3-4C96-A544-6263381FCA61} = {8FB3153D-012D-443E-96CE-BFF19C23B4B1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CA88298-04F6-4247-B0C1-1F533A52DB2F}
+	EndGlobalSection
+EndGlobal

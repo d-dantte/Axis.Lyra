@@ -1,0 +1,4 @@
+
+1. Implement WeakEventManager pattern for the "KeyInvalidated" event
+2. Redefine the ICache.Refresh(string) method. It basically needs to reset any "Idle" time set for a key. If no idle time
+   is originally present for the key, then ignore the operation.
