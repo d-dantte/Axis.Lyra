@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Docs", ".Docs", "{E9F60B01-477E-4B0D-BE76-939E8F8BD8C4}"
 	ProjectSection(SolutionItems) = preProject
 		BackLog.txt = BackLog.txt
+		CHANGELOG.md = CHANGELOG.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E2C3F13A-5E0F-4717-A33C-8CA63D1169FB}"
